@@ -1,4 +1,4 @@
-FROM ghcr.io/basecamp/kamal:v2.6.0
+FROM ghcr.io/basecamp/kamal:v2.6.1
 
 # Install additional dependencies and Infisical CLI
 RUN apk add --no-cache bash curl \
