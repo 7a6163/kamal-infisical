@@ -6,5 +6,5 @@ ARG INFISICAL_VERSION=0.41.85
 
 # Install additional dependencies and Infisical CLI
 RUN apk add --no-cache bash curl \
-    && curl -1sLf 'https://dl.cloudsmith.io/public/infisical/infisical-cli/setup.alpine.sh' | bash \
+    && curl -1sLf 'https://dl.cloudsmith.io/public/infisical/infisical-cli/setup.alpine.sh' | distro=alpine version=3.21.0 bash \
     && apk add "infisical=${INFISICAL_VERSION}"
