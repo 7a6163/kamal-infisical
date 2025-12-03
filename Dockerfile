@@ -1,8 +1,8 @@
-ARG KAMAL_VERSION=v2.8.2
+ARG KAMAL_VERSION=v2.9.0
 
 FROM ghcr.io/basecamp/kamal:${KAMAL_VERSION}
 
-ARG INFISICAL_VERSION=0.43.22
+ARG INFISICAL_VERSION=0.43.36
 
 # Install additional dependencies and Infisical CLI
 RUN apk add --no-cache bash curl \
