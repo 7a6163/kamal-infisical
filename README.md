@@ -8,7 +8,7 @@ This Docker image is built on top of the official Kamal image and adds the Infis
 
 ## Features
 
-- Based on Kamal v2.10.0
+- Based on Kamal v2.11.0
 - Includes Infisical CLI v0.43.46
 - Additional utilities: bash, curl
 
